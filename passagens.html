@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Passagens</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="navbar-container">
+        <nav>
+          <ul class="navbar-items">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="passagens.html">Passagens</a></li>
+            <li><a href="./pacotes.html">Pacotes</a></li>
+            <li><a href="./contato.html">Contato</a></li>
+            <li><a href="#" class="default-btn">Iniciar sessão</a></li>
+          </ul>
+        </nav>
+      </div>
+      <h1 class="chamada">Voo + Hotel com até 60% OFF!</h1>
+    <div class="destino-container">
+      <form>
+        <div class="form-group">
+          <label for="origem">Qual a sua origem?</label>
+          <select id="origem" name="origem" required>
+            <option value="" disabled selected>Selecione sua origem</option>
+            <option value="sao paulo">São Paulo</option>
+            <option value="rio de janeiro">Rio de Janeiro</option>
+            <option value="belo horizonte">Belo Horizonte</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label for="destino">Qual o seu destino?</label>
+          <select id="destino" name="destino" required>
+            <option value="" disabled selected>Selecione seu destino</option>
+            <option value="salvador">Salvador</option>
+            <option value="fortaleza">Fortaleza</option>
+            <option value="recife">Recife</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label for="ida">Ida:</label>
+          <input type="date" id="ida" name="ida" required />
+        </div>
+        <div class="form-group">
+          <label for="volta">Volta:</label>
+          <input type="date" id="volta" name="volta" required />
+        </div>
+        <button type="submit" class="destino-btn">Buscar Passagens</button>
+      </form>
+    </div>
+
+    <main>
+      <section class="pacotes">
+        <div class="pacote">
+          <img
+            class="img-pacote"
+            src="./imagens/buenos-aires.jpg"
+            alt="Buenos Aires"
+          />
+          <h3>Buenos Aires</h3>
+          <p class="descricao-pacote">
+            A vibrante capital da Argentina, Buenos Aires, é conhecida por sua
+            rica cultura, arquitetura europeia, tango envolvente e uma
+            gastronomia deliciosa. A cidade combina história e modernidade,
+            oferecendo teatros, museus, cafés tradicionais e uma animada vida
+            noturna.
+          </p>
+          <button type="submit" class="reserva-btn">Reservar Agora</button>
+        </div>
+        <div class="pacote">
+          <img class="img-pacote" src="./imagens/cancun.jpg" alt="Cancun" />
+          <h3>Cancun</h3>
+          <p class="descricao-pacote">
+            Localizado na Península de Yucatán, no México, Cancún é famoso por
+            suas praias de areias brancas, águas cristalinas e resorts de luxo.
+            É um destino ideal para quem busca lazer, vida noturna agitada e
+            atividades aquáticas como mergulho e snorkeling.
+          </p>
+          <button type="submit" class="reserva-btn">Reservar Agora</button>
+        </div>
+        <div class="pacote">
+          <img
+            class="img-pacote"
+            src="./imagens/porto-seguro.jpg"
+            alt="Porto Seguro"
+          />
+          <h3>Porto Seguro</h3>
+          <p class="descricao-pacote">
+            Situada na Bahia, Brasil, Porto Seguro é reconhecida por suas praias
+            paradisíacas, história colonial e festas animadas. É um destino
+            popular para turistas que desejam aproveitar o sol, a natureza e a
+            cultura local, além de ser um ponto de partida para explorar o
+            Arraial d'Ajuda e outras atrações da região.
+          </p>
+          <button type="submit" class="reserva-btn">Reservar Agora</button>
+        </div>
+        <div class="pacote">
+          <img class="img-pacote" src="./imagens/natal.jpg" alt="Natal" />
+          <h3>Natal</h3>
+          <p class="descricao-pacote">
+            Capital do Rio Grande do Norte, Natal oferece dunas impressionantes,
+            praias extensas e um clima tropical agradável. É famosa pelo seu
+            turismo de sol e mar, além de atrações como o Forte dos Reis Magos e
+            as dunas de Genipabu, ideais para passeios de buggy.
+          </p>
+          <button type="submit" class="reserva-btn">Reservar Agora</button>
+        </div>
+        <div class="pacote">
+          <img
+            class="img-pacote"
+            src="./imagens/bauneario.jpg"
+            alt="Porto Seguro"
+          />
+          <h3>Balneário Caboriú</h3>
+          <p class="descricao-pacote">
+            Localizado em Santa Catarina, Brasil, Balneário Camboriú é conhecido
+            por sua orla moderna, arranha-céus, vida noturna agitada e praias
+            urbanas. É um destino favorito para quem busca diversão, compras e
+            lazer à beira-mar.
+          </p>
+          <button type="submit" class="reserva-btn">Reservar Agora</button>
+        </div>
+        <div class="pacote">
+          <img
+            class="img-pacote"
+            src="./imagens/bariloche.jpg"
+            alt="Bariloche"
+          />
+          <h3>Bariloche</h3>
+          <p class="descricao-pacote">
+            Situada na Argentina, Bariloche encanta com suas paisagens de lagos,
+            montanhas e florestas. É um destino ideal para atividades ao ar
+            livre, como esqui no inverno, trekking e passeios de barco, além de
+            sua famosa arquitetura em estilo alpino.
+          </p>
+          <button type="submit" class="reserva-btn">Reservar Agora</button>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <p>&copy; 2025 Rota dos Sonhos. Todos os direitos reservados.</p>
+  </body>
+</html>
